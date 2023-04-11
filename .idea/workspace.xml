@@ -2,11 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b1ab68f-1938-4e8e-8205-36392364ee80" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/server/.idea/.gitignore" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/BrandBar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/TypeBar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/Auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/Shop.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server" beforeDir="false" afterPath="$PROJECT_DIR$/server" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/.env" beforeDir="false" afterPath="$PROJECT_DIR$/server/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/server/middleware/authMiddleware.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/server/.idea/online-store.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/server/.idea/workspace.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/models/models.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/models/models.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/.package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/node_modules/uuid/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/uuid/CHANGELOG.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/node_modules/uuid/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/uuid/README.md" afterDir="false" />
@@ -1790,7 +1798,7 @@
       <change beforePath="$PROJECT_DIR$/server/server/node_modules/mime-types/README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/server/server/node_modules/mime-types/index.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/server/server/node_modules/mime-types/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/server/node_modules/mime/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/server/node_modules/mime/.npmignore" beforeDir="false" afterPath="$PROJECT_DIR$/server/middleware/checkRoleMiddleware.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/server/node_modules/mime/CHANGELOG.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/server/server/node_modules/mime/LICENSE" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/server/server/node_modules/mime/README.md" beforeDir="false" />
@@ -4099,15 +4107,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/sasha/WebstormProjects/store&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -4116,7 +4125,26 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669548559817</updated>
-      <workItem from="1669548561405" duration="2682000" />
+      <workItem from="1669548561405" duration="3674000" />
+      <workItem from="1669887633069" duration="77000" />
+      <workItem from="1669894170551" duration="28000" />
+      <workItem from="1670099860402" duration="22000" />
+      <workItem from="1670099902688" duration="77000" />
+      <workItem from="1671227292576" duration="932000" />
+      <workItem from="1671709545685" duration="20000" />
+      <workItem from="1671887992776" duration="1037000" />
+      <workItem from="1671889682550" duration="59000" />
+      <workItem from="1671889761287" duration="83000" />
+      <workItem from="1671892508768" duration="138000" />
+      <workItem from="1671892699543" duration="9224000" />
+      <workItem from="1671909412786" duration="45000" />
+      <workItem from="1671909542648" duration="22324000" />
+      <workItem from="1671935281386" duration="10562000" />
+      <workItem from="1672003036365" duration="3836000" />
+      <workItem from="1672392016128" duration="296000" />
+      <workItem from="1677183315645" duration="476000" />
+      <workItem from="1680592892021" duration="692000" />
+      <workItem from="1681116830077" duration="901000" />
     </task>
     <servers />
   </component>
